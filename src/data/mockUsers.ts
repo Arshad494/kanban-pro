@@ -1,0 +1,60 @@
+import type { User } from '../types';
+
+export const MOCK_USERS: User[] = [
+  {
+    id: 'u1',
+    name: 'Sarah Chen',
+    email: 'sarah.chen@acme.com',
+    role: 'Product Manager',
+    avatar: 'SC',
+    color: '#5a67f2',
+  },
+  {
+    id: 'u2',
+    name: 'Marcus Rivera',
+    email: 'marcus.rivera@acme.com',
+    role: 'Senior Engineer',
+    avatar: 'MR',
+    color: '#10b981',
+  },
+  {
+    id: 'u3',
+    name: 'Priya Nair',
+    email: 'priya.nair@acme.com',
+    role: 'Business Analyst',
+    avatar: 'PN',
+    color: '#f59e0b',
+  },
+  {
+    id: 'u4',
+    name: 'James O\'Brien',
+    email: 'james.obrien@acme.com',
+    role: 'QA Engineer',
+    avatar: 'JO',
+    color: '#ef4444',
+  },
+  {
+    id: 'u5',
+    name: 'Elena Volkov',
+    email: 'elena.volkov@acme.com',
+    role: 'Solutions Architect',
+    avatar: 'EV',
+    color: '#8b5cf6',
+  },
+  {
+    id: 'u6',
+    name: 'David Kim',
+    email: 'david.kim@acme.com',
+    role: 'Frontend Engineer',
+    avatar: 'DK',
+    color: '#06b6d4',
+  },
+  {
+    id: 'u7',
+    name: 'Aisha Patel',
+    email: 'aisha.patel@acme.com',
+    role: 'DevOps Engineer',
+    avatar: 'AP',
+    color: '#ec4899',
+  },
+];
